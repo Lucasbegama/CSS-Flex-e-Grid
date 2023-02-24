@@ -4,3 +4,47 @@ body, ul , li , p{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu{
+    display: flex;
+
+
+}
+
+.menu ,li{
+    margin-left: 10px;
+
+}
+
+.menu , li ,a {
+    padding: 10px;
+}
+
+
+/*Css flexbox */
+
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex  div img {
+    width:auto;
+    height: auto;
+    margin: 10px;
+}
